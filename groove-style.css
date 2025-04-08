@@ -1,0 +1,17 @@
+/* title: Transparent bg */
+/* author: - Victor35436 */
+/* icon: - Zap */
+/* description: - No */
+:root {
+    /* Assets will be added here! */
+}
+
+#app {
+    div.tile-list-page {
+        div.groove-home-tile {
+            div.groove-home-inner-tile {
+                    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>') !important;
+            }
+        }
+    }
+}
