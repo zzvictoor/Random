@@ -15,7 +15,15 @@
 }
 
 
-*[title="Instagram"] .groove-element img, *[title="Instagram"] .groove-element img {
+*[title="Instagram"] .groove-element img, *[title="Instagram"] .groove-element img,
+*[title="Reddit"] .groove-element img, *[title="Reddit"] .groove-element img,
+*[title="Discord"] .groove-element img, *[title="Discord"] .groove-element img,
+*[title="Youtube"] .groove-element img, *[title="Youtube"] .groove-element img,
+*[title="Play Store"] .groove-element img, *[title="Play Store"] .groove-element img,
+*[title="Spotify"] .groove-element img, *[title="Spotify"] .groove-element img,
+*[title="X"] .groove-element img, *[title="X"] .groove-element img, 
+*[title="Pinterest"] .groove-element img, *[title="Pinterest"] .groove-element img, 
+*[title="WhatsApp"] .groove-element img, *[title="WhatsApp"] .groove-element img {
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
