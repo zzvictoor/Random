@@ -23,8 +23,8 @@
 *[title="Discord"] .groove-element > img,
 *[title="Discord"] .groove-element > p,
 
-*[title="Youtube"] .groove-element > img,
-*[title="Youtube"] .groove-element > p,
+*[title="YouTube"] .groove-element > img,
+*[title="YouTube"] .groove-element > p,
 
 *[title="Play Store"] .groove-element > img,
 *[title="Play Store"] .groove-element > p,
@@ -55,7 +55,7 @@
 *[title="Instagram"] .groove-element.groove-app-tile-icon, *[title="Instagram"] .groove-element.groove-home-inner-tile,
 *[title="Reddit"] .groove-element.groove-app-tile-icon, *[title="Reddit"] .groove-element.groove-home-inner-tile,
 *[title="Discord"] .groove-element.groove-app-tile-icon, *[title="Discord"] .groove-element.groove-home-inner-tile,
-*[title="Youtube"] .groove-element.groove-app-tile-icon, *[title="Youtube"] .groove-element.groove-home-inner-tile,
+*[title="YouTube"] .groove-element.groove-app-tile-icon, *[title="YouTube"] .groove-element.groove-home-inner-tile,
 *[title="Play Store"] .groove-element.groove-app-tile-icon, *[title="Play Store"] .groove-element.groove-home-inner-tile,
 *[title="Spotify"] .groove-element.groove-app-tile-icon, *[title="Spotify"] .groove-element.groove-home-inner-tile,
 *[title="X"] .groove-element.groove-app-tile-icon, *[title="X"] .groove-element.groove-home-inner-tile,
@@ -78,7 +78,7 @@
     background-image: var(--IconDiscord) !important; 
 }
 
-*[title="Youtube"] .groove-element.groove-app-tile-icon, *[title="YouTube"] .groove-element.groove-home-inner-tile{
+*[title="YouTube"] .groove-element.groove-app-tile-icon, *[title="YouTube"] .groove-element.groove-home-inner-tile{
     background-image: var(--IconYoutube) !important; 
 }
 
