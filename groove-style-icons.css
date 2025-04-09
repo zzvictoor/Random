@@ -29,6 +29,7 @@
     opacity: 0 !important;
     width: 0px !important;
     z-index: -99;
+    left: 900 !important;
 }
 
 *[title="Instagram"] .groove-element.groove-app-tile-icon, *[title="Instagram"] .groove-element.groove-home-inner-tile {
