@@ -35,64 +35,62 @@
 *[title="Instagram"] .groove-element.groove-app-tile-icon, *[title="Instagram"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconInstagram) !important; 
 	background-repeat: no-repeat;
+    background-position: center center;
     background-size: contain !important;
-    z-index:99;
 }
 
 *[title="Reddit"] .groove-element.groove-app-tile-icon, *[title="Reddit"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconReddit) !important; 
 	background-repeat: no-repeat;
     background-size: contain !important;
-    z-index:99;
 }
 
 *[title="Discord"] .groove-element.groove-app-tile-icon, *[title="Discord"] .groove-element.groove-home-inner-tile{
     background-image: var(--IconDiscord) !important; 
 	background-repeat: no-repeat;
+    background-position: center center;
     background-size: contain !important;
-    z-index:99;
 }
 
 *[title="Youtube"] .groove-element.groove-app-tile-icon, *[title="Youtube"] .groove-element.groove-home-inner-tile{
     background-image: var(--IconDiscord) !important; 
 	background-repeat: no-repeat;
     background-size: contain !important;
-    z-index:99;
 }
 
 *[title="Play Store"] .groove-element.groove-app-tile-icon, *[title="Play Store"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconPlayStore) !important; 
 	background-repeat: no-repeat;
+    background-position: center center;
     background-size: contain !important;
-    z-index:99;
 }
 
 *[title="Spotify"] .groove-element.groove-app-tile-icon, *[title="Spotify"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconSpotify) !important; 
 	background-repeat: no-repeat;
+    background-position: center center;
     background-size: contain !important;
-    z-index:99;
 }
 
 *[title="X"] .groove-element.groove-app-tile-icon, *[title="X"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconTwitter) !important; 
 	background-repeat: no-repeat;
+    background-position: center center;
     background-size: contain !important;
-    z-index:99;
 }
 
 *[title="Pinterest"] .groove-element.groove-app-tile-icon, *[title="Pinterest"] .groove-element.groove-home-inner-tile {
-    background-image: var(--IconTwitter) !important; 
+    background-image: var(--IconPinterest) !important; 
 	background-repeat: no-repeat;
+    background-position: center center;
     background-size: contain !important;
-    z-index:99;
 }
 
 *[title="WhatsApp"] .groove-element.groove-app-tile-icon, *[title="WhatsApp"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconWhatsapp) !important; 
 	background-repeat: no-repeat;
+    background-position: center center;
     background-size: contain !important;
-    z-index:99;
 }
 
 div.groove-home-inner-tile {
