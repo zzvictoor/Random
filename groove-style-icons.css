@@ -1,7 +1,7 @@
 /* title: Transparent BG & Nostalgic Icons */
 /* author: @zz.victor */
 /* icon: https://icon-library.com/images/transparent-icon-android/transparent-icon-android-15.jpg */
-/* description: ❗ The background is a temporary solution ❗ Nostalgic icons, actualy haves Instagram, Reddit, Discord, Youtube, Play Store, Spotify, X (Twitter), Pinterest, WhatsApp, TikTok and SpaceHey. */
+/* description: ❗ The background is a temporary solution ❗ Nostalgic icons, actualy haves Instagram, Reddit, Discord, Youtube, Play Store, Spotify, X (Twitter), Pinterest, WhatsApp, TikTok, SpaceHey and GitHub */
 :root {
     --IconInstagram: url('https://purepng.com/public/uploads/large/21502363139brqka1urunxkb6fsykdwwbdsp41ilsn7kwdmaogpqzi3ja4m8ewca6aqx1hsluhgvvq2zhaxujjywzcnitprj0vcgrcheaj4srev.png');
     --IconReddit: url('https://files.softicons.com/download/social-media-icons/flat-gradient-social-icons-by-guilherme-lima/png/256x256/Reddit.png');
@@ -14,6 +14,7 @@
     --IconWhatsapp: url('https://static.vecteezy.com/system/resources/previews/016/716/480/non_2x/whatsapp-icon-free-png.png');
     --IconTiktok: url('https://i.pinimg.com/736x/9f/d6/1b/9fd61bd6d5a1eaac22bac0ace87781f5.jpg');
     --IconSpaceHey: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Myspace.svg/2048px-Myspace.svg.png');
+    --IconGithub: url('https://www.pngmart.com/files/23/Github-Logo-PNG.png');
 }
 
 /* Strange without the p... *[title] .groove-element > p, */
@@ -27,17 +28,14 @@
 *[title="Pinterest"] .groove-element > img, 
 *[title="WhatsApp"] .groove-element > img, 
 *[title="TikTok"] .groove-element > img, 
-*[title="SpaceHey Mobile"] .groove-element > img {
+*[title="SpaceHey Mobile"] .groove-element > img, 
+*[title="GitHub"] .groove-element > img {
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
     width: 0px !important;
     z-index: -99;
     left: 900% !important;
-}
-
-.groove-element.groove-home-inner-tile{
-    background-color:#ffffff3b !important;
 }
 
 *[title="Instagram"] .groove-element.groove-app-tile-icon, *[title="Instagram"] .groove-element.groove-home-inner-tile,
@@ -50,7 +48,8 @@
 *[title="Pinterest"] .groove-element.groove-app-tile-icon, *[title="Pinterest"] .groove-element.groove-home-inner-tile,
 *[title="WhatsApp"] .groove-element.groove-app-tile-icon, *[title="WhatsApp"] .groove-element.groove-home-inner-tile,
 *[title="TikTok"] .groove-element.groove-app-tile-icon, *[title="TikTok"] .groove-element.groove-home-inner-tile,
-*[title="SpaceHey Mobile"] .groove-element.groove-app-tile-icon, *[title="SpaceHey Mobile"] .groove-element.groove-home-inner-tile{
+*[title="SpaceHey Mobile"] .groove-element.groove-app-tile-icon, *[title="SpaceHey Mobile"] .groove-element.groove-home-inner-tile,
+*[title="GitHub"] .groove-element.groove-app-tile-icon, *[title="GitHub"] .groove-element.groove-home-inner-tile{
 	background-repeat: no-repeat !important;
     background-position: center center !important;
     background-size: contain !important;
@@ -94,9 +93,14 @@
 
 *[title="TikTok"] .groove-element.groove-app-tile-icon, *[title="TikTok"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconTiktok) !important; 
+    background-color: transparent !important;
 }
 
 *[title="SpaceHey Mobile"] .groove-element.groove-app-tile-icon, *[title="SpaceHey Mobile"] .groove-element.groove-home-inner-tile {
+    background-image: var(--IconSpaceHey) !important; 
+}
+
+*[title="GitHub"] .groove-element.groove-app-tile-icon, *[title="SpaceHey Mobile"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconSpaceHey) !important; 
 }
 
@@ -113,6 +117,10 @@ div.slide-page-home.wallpaper-behind>div.tile-list-page{
 
 div.groove-home-tile.active {
 	transform: none !important;
+}
+
+.groove-element.groove-home-inner-tile{
+    background-color:#ffffff3b !important;
 }
 
 div.groove-home-inner-tile {
