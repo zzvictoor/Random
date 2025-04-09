@@ -100,8 +100,8 @@
     background-image: var(--IconSpaceHey) !important; 
 }
 
-*[title="GitHub"] .groove-element.groove-app-tile-icon, *[title="SpaceHey Mobile"] .groove-element.groove-home-inner-tile {
-    background-image: var(--IconSpaceHey) !important; 
+*[title="GitHub"] .groove-element.groove-app-tile-icon, *[title="GitHub"] .groove-element.groove-home-inner-tile {
+    background-image: var(--IconGithub) !important; 
 }
 
 div.slide-page-home.wallpaper-behind>div.tile-list-page{
