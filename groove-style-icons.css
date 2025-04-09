@@ -14,7 +14,6 @@
     --IconWhatsapp: url('https://static.vecteezy.com/system/resources/previews/016/716/480/non_2x/whatsapp-icon-free-png.png');
 }
 
-
 *[title="Instagram"] .groove-element img, *[title="Instagram"] .groove-element img,
 *[title="Reddit"] .groove-element img, *[title="Reddit"] .groove-element img,
 *[title="Discord"] .groove-element img, *[title="Discord"] .groove-element img,
@@ -29,71 +28,60 @@
     opacity: 0 !important;
     width: 0px !important;
     z-index: -99;
-    left: 900 !important;
+    left: 900% !important;
+}
+
+*[title="Instagram"] .groove-element.groove-app-tile-icon, *[title="Instagram"] .groove-element.groove-home-inner-tile,
+*[title="Reddit"] .groove-element.groove-app-tile-icon, *[title="Reddit"] .groove-element.groove-home-inner-tile,
+*[title="Discord"] .groove-element.groove-app-tile-icon, *[title="Discord"] .groove-element.groove-home-inner-tile,
+*[title="Youtube"] .groove-element.groove-app-tile-icon, *[title="Youtube"] .groove-element.groove-home-inner-tile,
+*[title="Play Store"] .groove-element.groove-app-tile-icon, *[title="Play Store"] .groove-element.groove-home-inner-tile,
+*[title="Spotify"] .groove-element.groove-app-tile-icon, *[title="Spotify"] .groove-element.groove-home-inner-tile,
+*[title="X"] .groove-element.groove-app-tile-icon, *[title="X"] .groove-element.groove-home-inner-tile,
+*[title="Pinterest"] .groove-element.groove-app-tile-icon, *[title="Pinterest"] .groove-element.groove-home-inner-tile,
+*[title="WhatsApp"] .groove-element.groove-app-tile-icon, *[title="WhatsApp"] .groove-element.groove-home-inner-tile{
+	background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain !important;
 }
 
 *[title="Instagram"] .groove-element.groove-app-tile-icon, *[title="Instagram"] .groove-element.groove-home-inner-tile {
-    background-image: var(--IconInstagram) !important; 
-	background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover !important;
+    background-image: var(--IconInstagram) !important;
 }
 
 *[title="Reddit"] .groove-element.groove-app-tile-icon, *[title="Reddit"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconReddit) !important; 
-	background-repeat: no-repeat;
-    background-size: cover !important;
 }
 
 *[title="Discord"] .groove-element.groove-app-tile-icon, *[title="Discord"] .groove-element.groove-home-inner-tile{
     background-image: var(--IconDiscord) !important; 
-	background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover !important;
 }
 
 *[title="Youtube"] .groove-element.groove-app-tile-icon, *[title="Youtube"] .groove-element.groove-home-inner-tile{
     background-image: var(--IconDiscord) !important; 
-	background-repeat: no-repeat;
-    background-size: cover !important;
 }
 
 *[title="Play Store"] .groove-element.groove-app-tile-icon, *[title="Play Store"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconPlayStore) !important; 
-	background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover !important;
 }
 
 *[title="Spotify"] .groove-element.groove-app-tile-icon, *[title="Spotify"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconSpotify) !important; 
-	background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover !important;
 }
 
 *[title="X"] .groove-element.groove-app-tile-icon, *[title="X"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconTwitter) !important; 
-	background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover !important;
 }
 
 *[title="Pinterest"] .groove-element.groove-app-tile-icon, *[title="Pinterest"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconPinterest) !important; 
-	background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover !important;
 }
 
 *[title="WhatsApp"] .groove-element.groove-app-tile-icon, *[title="WhatsApp"] .groove-element.groove-home-inner-tile {
     background-image: var(--IconWhatsapp) !important; 
-	background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover !important;
 }
 
 div.groove-home-inner-tile {
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>') !important;
-    /* z-index: -1; */
+    z-index: -1;
 }
