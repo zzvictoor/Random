@@ -8,7 +8,7 @@
 
 
 div.groove-home-inner-tile {
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>');
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>') !important;
 }
 
 *[title="Instagram"] .groove-element img, *[title="instagram"] .groove-element img {
