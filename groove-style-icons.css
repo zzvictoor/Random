@@ -1,6 +1,6 @@
 /* title: Transparent bg and Nostalgic icons */
 /* author: - Victor35436 */
-/* icon: - */
+/* icon: - https://icon-library.com/images/transparent-icon-android/transparent-icon-android-15.jpg */
 /* description: - Nostalgic icons, actualy haves Instagram, Reddit, Discord, Youtube, Play Store, Spotify, X (Twitter), Pinterest and Whatsapp. */
 :root {
     --IconInstagram: url('https://purepng.com/public/uploads/large/21502363139brqka1urunxkb6fsykdwwbdsp41ilsn7kwdmaogpqzi3ja4m8ewca6aqx1hsluhgvvq2zhaxujjywzcnitprj0vcgrcheaj4srev.png');
@@ -9,7 +9,7 @@
     --IconYoutube: url('https://freemiumicons.com/wp-content/uploads/2023/06/old-youtube-app-icon-1.png');
     --IconPlayStore: url('https://seeklogo.com/images/P/play-store-logo-3ED22E9BBA-seeklogo.com.png');
     --IconSpotify: url('https://s1.mzstatic.com/us/r1000/116/Purple2/v4/a7/b2/0f/a7b20fc3-ec94-9b5b-c882-1dd6adf8d796/mzl.vlouadun.png');
-	--IconTwitter: url('https://toppng.com/uploads/preview/twitter-logo-png-transparent-background-11661724042c9wzyq41cs.png');
+	--IconTwitter: url('https://icon-library.com/images/twitter-square-icon/twitter-square-icon-18.jpg');
 	--IconPinterest: url('https://pngimg.com/uploads/pinterest/pinterest_PNG75.png');
     --IconWhatsapp: url('https://static.vecteezy.com/system/resources/previews/016/716/480/non_2x/whatsapp-icon-free-png.png');
 }
