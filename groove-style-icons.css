@@ -1,16 +1,13 @@
 /* title: Transparent bg and Nostalgic icons */
 /* author: - Victor35436 */
 /* icon: - */
-/* description: - Nostalgic icons, actually haves Instagram only. */
+/* description: - Nostalgic icons, actualy haves Instagram only. */
 :root {
     --igIcon: url('https://purepng.com/public/uploads/large/21502363139brqka1urunxkb6fsykdwwbdsp41ilsn7kwdmaogpqzi3ja4m8ewca6aqx1hsluhgvvq2zhaxujjywzcnitprj0vcgrcheaj4srev.png');
 }
 
 
-div.groove-home-inner-tile {
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>') !important;
-    z-index: -1;
-}
+
 
 *[title="Instagram"] .groove-element img, *[title="instagram"] .groove-element img {
     display: none !important;
@@ -22,10 +19,15 @@ div.groove-home-inner-tile {
 
 *[title="Instagram"] .groove-element.groove-app-tile-icon,
 *[title="instagram"] .groove-element.groove-app-tile-icon,
-*[title="Instagram"].groove-element.groove-home-tile,
-*[title="instagram"].groove-element.groove-home-tile{
+*[title="Instagram"] .groove-element.groove-home-inner-tile,
+*[title="instagram"] .groove-element.groove-home-inner-tile{
     background-image: var(--igIcon) !important; 
 	background-repeat: no-repeat;
     background-size: contain !important;
     z-index:99;
+}
+
+div.groove-home-inner-tile {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>') !important;
+    z-index: -1;
 }
