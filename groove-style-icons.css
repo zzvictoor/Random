@@ -1,7 +1,7 @@
 /* title: Transparent bg and Nostalgic icons */
 /* author: - Victor35436 */
 /* icon: https://icon-library.com/images/transparent-icon-android/transparent-icon-android-15.jpg */
-/* description: - Nostalgic icons, actualy haves Instagram, Reddit, Discord, Youtube, Play Store, Spotify, X (Twitter), Pinterest and Whatsapp. */
+/* description: - Nostalgic icons, actualy haves Instagram, Reddit, Discord, Youtube, Play Store, Spotify, X (Twitter), Pinterest and Whatsapp. SEE, i cant remove the transparency of the icons because the blend mode, so i improvised something... It wasn't perfect, but works. :)*/
 :root {
     --IconInstagram: url('https://purepng.com/public/uploads/large/21502363139brqka1urunxkb6fsykdwwbdsp41ilsn7kwdmaogpqzi3ja4m8ewca6aqx1hsluhgvvq2zhaxujjywzcnitprj0vcgrcheaj4srev.png');
     --IconReddit: url('https://files.softicons.com/download/social-media-icons/flat-gradient-social-icons-by-guilherme-lima/png/256x256/Reddit.png');
@@ -29,6 +29,10 @@
     width: 0px !important;
     z-index: -99;
     left: 900% !important;
+}
+
+.groove-element.groove-home-inner-tile{
+    background-color:#ffffff3b !important;
 }
 
 *[title="Instagram"] .groove-element.groove-app-tile-icon, *[title="Instagram"] .groove-element.groove-home-inner-tile,
@@ -81,7 +85,18 @@
     background-image: var(--IconWhatsapp) !important; 
 }
 
+div.slide-page-home.wallpaper-behind>div.tile-list-page{
+	mix-blend-mode: normal !important;
+}
+
+.tile-list-inner-container.grid-stack{
+	background-image: var(--wallpaper-url) !important;
+}
+
+div.groove-home-tile.active {
+	transform: none !important;
+}
+
 div.groove-home-inner-tile {
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>') !important;
-    z-index: -1;
 }
