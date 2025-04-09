@@ -1,7 +1,7 @@
 /* title: Transparent BG & Nostalgic Icons */
 /* author: @zz.victor */
 /* icon: https://icon-library.com/images/transparent-icon-android/transparent-icon-android-15.jpg */
-/* description: - Nostalgic icons, actualy haves Instagram, Reddit, Discord, Youtube, Play Store, Spotify, X (Twitter), Pinterest and Whatsapp. BG AJUSTED */
+/* description: ❗ The background is a temporary solution ❗ Nostalgic icons, actualy haves Instagram, Reddit, Discord, Youtube, Play Store, Spotify, X (Twitter), Pinterest, WhatsApp, TikTok and SpaceHey. */
 :root {
     --IconInstagram: url('https://purepng.com/public/uploads/large/21502363139brqka1urunxkb6fsykdwwbdsp41ilsn7kwdmaogpqzi3ja4m8ewca6aqx1hsluhgvvq2zhaxujjywzcnitprj0vcgrcheaj4srev.png');
     --IconReddit: url('https://files.softicons.com/download/social-media-icons/flat-gradient-social-icons-by-guilherme-lima/png/256x256/Reddit.png');
@@ -12,8 +12,8 @@
     --IconTwitter: url('https://icon-library.com/images/twitter-square-icon/twitter-square-icon-18.jpg');
     --IconPinterest: url('https://pngimg.com/uploads/pinterest/pinterest_PNG75.png');
     --IconWhatsapp: url('https://static.vecteezy.com/system/resources/previews/016/716/480/non_2x/whatsapp-icon-free-png.png');
-    --IconTiktok: url('https://i.pinimg.com/736x/e0/64/87/e06487db4c9a77d4f2644cf95e157e61.jpg');
-    --IconSpaceHey: url('https://cdn3.iconfinder.com/data/icons/cute-flat-social-media-icons-3/512/myspace.png');
+    --IconTiktok: url('https://i.pinimg.com/736x/a8/39/10/a839102775416fc2942c29c8e45bf326.jpg');
+    --IconSpaceHey: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Myspace.svg/2048px-Myspace.svg.png');
 }
 
 /* Strange without the p... *[title] .groove-element > p, */
