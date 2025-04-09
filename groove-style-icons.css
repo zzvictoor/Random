@@ -13,13 +13,14 @@ div.groove-home-inner-tile {
 
 *[title="Instagram"] .groove-element img, *[title="instagram"] .groove-element img {
     display: none !important;
-        visibility: collapse !important;
+    visibility: hidden !important;
 }
 
 *[title="Instagram"] .groove-element.groove-app-tile-icon,
 *[title="instagram"] .groove-element.groove-app-tile-icon,
 *[title="Instagram"] .groove-element.groove-home-inner-tile,
 *[title="instagram"] .groove-element.groove-home-inner-tile{
-    background: var(--igIcon) no-repeat center center !important;
+    background-image: var(--igIcon) !important; 
+	background-repeat: no-repeat;
     background-size: contain !important;
 }
