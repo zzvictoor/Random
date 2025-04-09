@@ -20,14 +20,15 @@
 
 *[title="Instagram"] .groove-element.groove-home-inner-tile img,
 *[title="instagram"] .groove-element.groove-home-inner-tile img{
-    display:none;
-    opacity:0;
+    z-index:-1;
 }
 
 *[title="Instagram"] .groove-element.groove-home-inner-tile,
 *[title="instagram"] .groove-element.groove-home-inner-tile{
     background: url('https://purepng.com/public/uploads/large/21502363139brqka1urunxkb6fsykdwwbdsp41ilsn7kwdmaogpqzi3ja4m8ewca6aqx1hsluhgvvq2zhaxujjywzcnitprj0vcgrcheaj4srev.png') no-repeat center center !important;
     background-size: contain !important;
+    opacity: 1;
+    display: blocK;
 }
 
 #app {
