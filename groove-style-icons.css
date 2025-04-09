@@ -1,7 +1,7 @@
 /* title: Transparent BG & Nostalgic Icons */
 /* author: - Victor35436 */
 /* icon: https://icon-library.com/images/transparent-icon-android/transparent-icon-android-15.jpg */
-/* description: - Nostalgic icons, actualy haves Instagram, Reddit, Discord, Youtube, Play Store, Spotify, X (Twitter), Pinterest, Whatsapp, TikTok, SpaceHey. ⚠ THE BACKGROUND IS A TEMPORARY SOLUTION ⚠ */
+/* description: - Nostalgic icons, actualy haves Instagram, Reddit, Discord, Youtube, Play Store, Spotify, X (Twitter), Pinterest and Whatsapp. BG AJUSTED */
 :root {
     --IconInstagram: url('https://purepng.com/public/uploads/large/21502363139brqka1urunxkb6fsykdwwbdsp41ilsn7kwdmaogpqzi3ja4m8ewca6aqx1hsluhgvvq2zhaxujjywzcnitprj0vcgrcheaj4srev.png');
     --IconReddit: url('https://files.softicons.com/download/social-media-icons/flat-gradient-social-icons-by-guilherme-lima/png/256x256/Reddit.png');
@@ -16,7 +16,7 @@
     --IconSpaceHey: url('https://icons.iconarchive.com/icons/fasticon/web-2/256/MySpace-icon.png');
 }
 
-*[title] .groove-element > p,
+/* Strange without the p... *[title] .groove-element > p, */
 *[title="Instagram"] .groove-element > img, 
 *[title="Reddit"] .groove-element > img,
 *[title="Discord"] .groove-element > img,
@@ -93,11 +93,11 @@
 }
 
 *[title="TikTok"] .groove-element.groove-app-tile-icon, *[title="TikTok"] .groove-element.groove-home-inner-tile {
-    background-image: var(--IconWhatsapp) !important; 
+    background-image: var(--IconTiktok) !important; 
 }
 
 *[title="SpaceHey Mobile"] .groove-element.groove-app-tile-icon, *[title="SpaceHey Mobile"] .groove-element.groove-home-inner-tile {
-    background-image: var(--IconWhatsapp) !important; 
+    background-image: var(--IconSpaceHey) !important; 
 }
 
 div.slide-page-home.wallpaper-behind>div.tile-list-page{
