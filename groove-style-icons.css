@@ -5,7 +5,7 @@
 :root {
     --IconInstagram: url('https://purepng.com/public/uploads/large/21502363139brqka1urunxkb6fsykdwwbdsp41ilsn7kwdmaogpqzi3ja4m8ewca6aqx1hsluhgvvq2zhaxujjywzcnitprj0vcgrcheaj4srev.png');
     --IconReddit: url('https://files.softicons.com/download/social-media-icons/flat-gradient-social-icons-by-guilherme-lima/png/256x256/Reddit.png');
-    --IconDiscord: url('https://static.wikia.nocookie.net/logopedia/images/b/b5/Discord_Icon_%28Shadowed%29.png');
+    --IconDiscord: url('https://cdn.iconscout.com/icon/free/png-512/free-discord-logo-icon-download-in-svg-png-gif-file-formats--logos-pack-icons-1581238.png');
     --IconYoutube: url('https://freemiumicons.com/wp-content/uploads/2023/06/old-youtube-app-icon-1.png');
     --IconPlayStore: url('https://images.icon-icons.com/195/PNG/256/Android_Market_23430.png');
     --IconSpotify: url('https://s1.mzstatic.com/us/r1000/116/Purple2/v4/a7/b2/0f/a7b20fc3-ec94-9b5b-c882-1dd6adf8d796/mzl.vlouadun.png');
@@ -78,8 +78,8 @@
     background-image: var(--IconDiscord) !important; 
 }
 
-*[title="Youtube"] .groove-element.groove-app-tile-icon, *[title="Youtube"] .groove-element.groove-home-inner-tile{
-    background-image: var(--IconDiscord) !important; 
+*[title="Youtube"] .groove-element.groove-app-tile-icon, *[title="YouTube"] .groove-element.groove-home-inner-tile{
+    background-image: var(--IconYoutube) !important; 
 }
 
 *[title="Play Store"] .groove-element.groove-app-tile-icon, *[title="Play Store"] .groove-element.groove-home-inner-tile {
