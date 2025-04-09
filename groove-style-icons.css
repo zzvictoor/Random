@@ -6,18 +6,14 @@
     --igIcon: url('https://purepng.com/public/uploads/large/21502363139brqka1urunxkb6fsykdwwbdsp41ilsn7kwdmaogpqzi3ja4m8ewca6aqx1hsluhgvvq2zhaxujjywzcnitprj0vcgrcheaj4srev.png');
 }
 
-#app {
-    div.tile-list-page {
-        div.groove-home-tile {
-            div.groove-home-inner-tile {
-                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>');
-            }
-        }
-    }
+
+div.groove-home-inner-tile {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>');
 }
 
 *[title="Instagram"] .groove-element img, *[title="instagram"] .groove-element img {
     display: none !important;
+        visibility: collapse !important;
 }
 
 *[title="Instagram"] .groove-element.groove-app-tile-icon,
@@ -27,4 +23,3 @@
     background: var(--igIcon) no-repeat center center !important;
     background-size: contain !important;
 }
-
