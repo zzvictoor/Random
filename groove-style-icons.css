@@ -15,7 +15,7 @@
 }
 
 
-*[title="Instagram"] .groove-element img, *[title="instagram"] .groove-element img {
+*[title="Instagram"] .groove-element img, *[title="Instagram"] .groove-element img {
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
