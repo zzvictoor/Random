@@ -14,15 +14,32 @@
     --IconWhatsapp: url('https://static.vecteezy.com/system/resources/previews/016/716/480/non_2x/whatsapp-icon-free-png.png');
 }
 
-*[title="Instagram"] .groove-element img, *[title="Instagram"] .groove-element img,
-*[title="Reddit"] .groove-element img, *[title="Reddit"] .groove-element img,
-*[title="Discord"] .groove-element img, *[title="Discord"] .groove-element img,
-*[title="Youtube"] .groove-element img, *[title="Youtube"] .groove-element img,
-*[title="Play Store"] .groove-element img, *[title="Play Store"] .groove-element img,
-*[title="Spotify"] .groove-element img, *[title="Spotify"] .groove-element img,
-*[title="X"] .groove-element img, *[title="X"] .groove-element img, 
-*[title="Pinterest"] .groove-element img, *[title="Pinterest"] .groove-element img, 
-*[title="WhatsApp"] .groove-element img, *[title="WhatsApp"] .groove-element img {
+*[title="Instagram"] .groove-element img, 
+*[title="Instagram"] .groove-element p,
+
+*[title="Reddit"] .groove-element > img,
+*[title="Reddit"] .groove-element > p,
+
+*[title="Discord"] .groove-element > img,
+*[title="Discord"] .groove-element > p,
+
+*[title="Youtube"] .groove-element > img,
+*[title="Youtube"] .groove-element > p,
+
+*[title="Play Store"] .groove-element > img,
+*[title="Play Store"] .groove-element > p,
+
+*[title="Spotify"] .groove-element > img,
+*[title="Spotify"] .groove-element > p,
+
+*[title="X"] .groove-element > img,
+*[title="X"] .groove-element > p,
+
+*[title="Pinterest"] .groove-element > img, 
+*[title="Pinterest"] .groove-element > p,
+
+*[title="WhatsApp"] .groove-element > img, 
+*[title="WhatsApp"] .groove-element > p {
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
