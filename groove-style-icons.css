@@ -91,7 +91,7 @@ div.slide-page-home.wallpaper-behind>div.tile-list-page{
 
 .tile-list-inner-container.grid-stack{
 	background-image: var(--wallpaper-url) !important;
-    background-size: auto;
+    background-size: contain;
     background-repeat: unset;
     background-position: center center;
 }
