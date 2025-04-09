@@ -18,8 +18,8 @@ div.groove-home-inner-tile {
 
 *[title="Instagram"] .groove-element.groove-app-tile-icon,
 *[title="instagram"] .groove-element.groove-app-tile-icon,
-*[title="Instagram"] .groove-element.groove-home-inner-tile,
-*[title="instagram"] .groove-element.groove-home-inner-tile{
+*[title="Instagram"].groove-element.groove-home-tile,
+*[title="instagram"].groove-element.groove-home-tile{
     background-image: var(--igIcon) !important; 
 	background-repeat: no-repeat;
     background-size: contain !important;
