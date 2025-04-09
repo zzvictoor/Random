@@ -1,0 +1,124 @@
+/* title: Transparent Frutiger */
+/* author: @zz.victor */
+/* icon: https://icon-library.com/images/transparent-icon-android/transparent-icon-android-15.jpg */
+/* description: TESTS ONLY */
+:root {
+    --IconInstagram: url('https://purepng.com/public/uploads/large/21502363139brqka1urunxkb6fsykdwwbdsp41ilsn7kwdmaogpqzi3ja4m8ewca6aqx1hsluhgvvq2zhaxujjywzcnitprj0vcgrcheaj4srev.png');
+    --IconReddit: url('https://files.softicons.com/download/social-media-icons/flat-gradient-social-icons-by-guilherme-lima/png/256x256/Reddit.png');
+    --IconDiscord: url('https://cdn.iconscout.com/icon/free/png-512/free-discord-logo-icon-download-in-svg-png-gif-file-formats--logos-pack-icons-1581238.png');
+    --IconYoutube: url('https://freemiumicons.com/wp-content/uploads/2023/06/old-youtube-app-icon-1.png');
+    --IconPlayStore: url('https://images.icon-icons.com/195/PNG/256/Android_Market_23430.png');
+    --IconSpotify: url('https://s1.mzstatic.com/us/r1000/116/Purple2/v4/a7/b2/0f/a7b20fc3-ec94-9b5b-c882-1dd6adf8d796/mzl.vlouadun.png');
+    --IconTwitter: url('https://icon-library.com/images/twitter-square-icon/twitter-square-icon-18.jpg');
+    --IconPinterest: url('https://pngimg.com/uploads/pinterest/pinterest_PNG75.png');
+    --IconWhatsapp: url('https://static.vecteezy.com/system/resources/previews/016/716/480/non_2x/whatsapp-icon-free-png.png');
+    --IconTiktok: url('https://i.pinimg.com/736x/9f/d6/1b/9fd61bd6d5a1eaac22bac0ace87781f5.jpg');
+    --IconSpaceHey: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Myspace.svg/2048px-Myspace.svg.png');
+    --IconGithub: url('https://www.pngmart.com/files/23/Github-Logo-PNG.png');
+}
+
+/* Strange without the p... *[title] .groove-element > p, */
+*[title="Instagram"] .groove-element > img, 
+*[title="Reddit"] .groove-element > img,
+*[title="Discord"] .groove-element > img,
+*[title="YouTube"] .groove-element > img,
+*[title="Play Store"] .groove-element > img,
+*[title="Spotify"] .groove-element > img,
+*[title="X"] .groove-element > img,
+*[title="Pinterest"] .groove-element > img, 
+*[title="WhatsApp"] .groove-element > img, 
+*[title="TikTok"] .groove-element > img, 
+*[title="SpaceHey Mobile"] .groove-element > img, 
+*[title="GitHub"] .groove-element > img {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    z-index: -99;
+    left: 900% !important;
+}
+
+*[title="Instagram"] .groove-element.groove-app-tile-icon, *[title="Instagram"] .groove-element.groove-home-inner-tile,
+*[title="Reddit"] .groove-element.groove-app-tile-icon, *[title="Reddit"] .groove-element.groove-home-inner-tile,
+*[title="Discord"] .groove-element.groove-app-tile-icon, *[title="Discord"] .groove-element.groove-home-inner-tile,
+*[title="YouTube"] .groove-element.groove-app-tile-icon, *[title="YouTube"] .groove-element.groove-home-inner-tile,
+*[title="Play Store"] .groove-element.groove-app-tile-icon, *[title="Play Store"] .groove-element.groove-home-inner-tile,
+*[title="Spotify"] .groove-element.groove-app-tile-icon, *[title="Spotify"] .groove-element.groove-home-inner-tile,
+*[title="X"] .groove-element.groove-app-tile-icon, *[title="X"] .groove-element.groove-home-inner-tile,
+*[title="Pinterest"] .groove-element.groove-app-tile-icon, *[title="Pinterest"] .groove-element.groove-home-inner-tile,
+*[title="WhatsApp"] .groove-element.groove-app-tile-icon, *[title="WhatsApp"] .groove-element.groove-home-inner-tile,
+*[title="TikTok"] .groove-element.groove-app-tile-icon, *[title="TikTok"] .groove-element.groove-home-inner-tile,
+*[title="SpaceHey Mobile"] .groove-element.groove-app-tile-icon, *[title="SpaceHey Mobile"] .groove-element.groove-home-inner-tile,
+*[title="GitHub"] .groove-element.groove-app-tile-icon, *[title="GitHub"] .groove-element.groove-home-inner-tile{
+	background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain !important;
+}
+
+*[title="Instagram"] .groove-element.groove-app-tile-icon, *[title="Instagram"] .groove-element.groove-home-inner-tile {
+    background-image: var(--IconInstagram) !important;
+}
+
+*[title="Reddit"] .groove-element.groove-app-tile-icon, *[title="Reddit"] .groove-element.groove-home-inner-tile {
+    background-image: var(--IconReddit) !important; 
+}
+
+*[title="Discord"] .groove-element.groove-app-tile-icon, *[title="Discord"] .groove-element.groove-home-inner-tile{
+    background-image: var(--IconDiscord) !important; 
+}
+
+*[title="YouTube"] .groove-element.groove-app-tile-icon, *[title="YouTube"] .groove-element.groove-home-inner-tile{
+    background-image: var(--IconYoutube) !important; 
+}
+
+*[title="Play Store"] .groove-element.groove-app-tile-icon, *[title="Play Store"] .groove-element.groove-home-inner-tile {
+    background-image: var(--IconPlayStore) !important; 
+}
+
+*[title="Spotify"] .groove-element.groove-app-tile-icon, *[title="Spotify"] .groove-element.groove-home-inner-tile {
+    background-image: var(--IconSpotify) !important; 
+}
+
+*[title="X"] .groove-element.groove-app-tile-icon, *[title="X"] .groove-element.groove-home-inner-tile {
+    background-image: var(--IconTwitter) !important; 
+}
+
+*[title="Pinterest"] .groove-element.groove-app-tile-icon, *[title="Pinterest"] .groove-element.groove-home-inner-tile {
+    background-image: var(--IconPinterest) !important; 
+}
+
+*[title="WhatsApp"] .groove-element.groove-app-tile-icon, *[title="WhatsApp"] .groove-element.groove-home-inner-tile {
+    background-image: var(--IconWhatsapp) !important; 
+}
+
+*[title="TikTok"] .groove-element.groove-app-tile-icon, *[title="TikTok"] .groove-element.groove-home-inner-tile {
+    background-image: var(--IconTiktok) !important; 
+    background-color: transparent !important;
+}
+
+*[title="SpaceHey Mobile"] .groove-element.groove-app-tile-icon, *[title="SpaceHey Mobile"] .groove-element.groove-home-inner-tile {
+    background-image: var(--IconSpaceHey) !important; 
+}
+
+*[title="GitHub"] .groove-element.groove-app-tile-icon, *[title="GitHub"] .groove-element.groove-home-inner-tile {
+    background-image: var(--IconGithub) !important; 
+}
+
+div.slide-page-home.wallpaper-behind>div.tile-list-page{
+	mix-blend-mode: normal !important;
+}
+
+.tile-list-inner-container.grid-stack{
+	background-image: var(--wallpaper-url) !important;
+    background-size: contain;
+    background-repeat: unset;
+    background-position: center center;
+}
+
+.groove-element.groove-home-inner-tile{
+    background-color:#ffffff3b !important;
+}
+
+div.groove-home-inner-tile {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>') !important;
+}
