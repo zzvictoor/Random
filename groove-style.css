@@ -1,10 +1,7 @@
-/* title: Transparent bg */
-/* author: - Victor35436 */
-/* icon: - Zap */
-/* description: - No */
-:root {
-    /* Assets will be added here! */
-}
+/* title: Transparent tiles background */
+/* author: - @zz.victor */
+/* icon: https://static.vecteezy.com/system/resources/previews/021/815/786/original/transparent-square-icon-background-png.png */
+/* description: - Just removing the ugly background from the applications, to make the Groove looks like more the windows 10 mobile. */
 
 #app {
     div.tile-list-page {
