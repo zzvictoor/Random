@@ -22,7 +22,7 @@ The icon stylesheet includes selectors for apps such as Instagram, Reddit, Disco
 
 ## Usage
 
-These files are standalone CSS customizations. Use the stylesheet that matches the visual change you want, and keep the `*-testes.css` file for experimentation rather than treating it as the stable variant.
+These files are standalone CSS customizations and do not require a build step. Use the stylesheet that matches the visual change you want, and keep the `*-testes.css` file for experimentation rather than treating it as the stable variant.
 
 For safer experimentation, test changes in `groove-icons-testes.css` first and only copy a selector into `groove-style-icons.css` once the icon renders as expected.
 
