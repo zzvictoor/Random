@@ -26,6 +26,23 @@ These files are standalone CSS customizations and do not require a build step. U
 
 For safer experimentation, test changes in `groove-icons-testes.css` first and only copy a selector into `groove-style-icons.css` once the icon renders as expected.
 
+## Compatibility
+
+These styles depend on the target application's current class names and markup. If the application changes its DOM structure or selectors, an otherwise valid rule may stop matching without the CSS itself being invalid.
+
+## Testing checklist
+
+Before promoting an icon rule from the testing stylesheet to the stable one:
+
+- Confirm the target tile still matches the intended selector.
+- Check that the icon remains readable at the normal tile size.
+- Verify the external image URL loads directly over HTTPS.
+- Make sure unrelated tiles keep their existing appearance.
+
+## Troubleshooting
+
+If an icon disappears, first open its asset URL directly. If the image still loads, inspect whether the application's selector or markup changed before replacing the asset itself.
+
 ## Maintenance notes
 
 - Keep selectors for different apps separate so one broken rule does not make unrelated icon changes harder to debug.
