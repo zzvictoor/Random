@@ -24,7 +24,11 @@ The icon stylesheet includes selectors for apps such as Instagram, Reddit, Disco
 
 These files are standalone CSS customizations and do not require a build step. Use the stylesheet that matches the visual change you want, and keep the `*-testes.css` file for experimentation rather than treating it as the stable variant.
 
+The stylesheets can also be used independently: load `groove-style.css` for the transparent tile background, `groove-style-icons.css` for icon replacements, or both when both changes are wanted.
+
 For safer experimentation, test changes in `groove-icons-testes.css` first and only copy a selector into `groove-style-icons.css` once the icon renders as expected.
+
+To roll back a visual change, stop loading the corresponding stylesheet or restore the previous selector from version control; the CSS does not modify application data.
 
 ## Compatibility
 
